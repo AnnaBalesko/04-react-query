@@ -42,7 +42,7 @@ export default function MovieModal({ movie, onClose }: MovieModalProps) {
         <button
           className={css.closeButton}
           aria-label="Close modal"
-          onClick={() => onClose}
+          onClick={onClose}
         >
           &times;
         </button>
